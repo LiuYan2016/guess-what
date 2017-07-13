@@ -1,0 +1,12 @@
+
+
+export const problems = [
+	{
+		choices: [
+			"Wildlife ranger arrest the hunters",
+			"Another hunter photo-bomb the scene",
+			"Another lion chase the hunter for revenge"
+		],
+		answer: "Another lion chase the hunter for revenge"
+	}
+]

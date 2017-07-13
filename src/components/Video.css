@@ -1,0 +1,10 @@
+﻿
+#videoFrame {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 50%;
+  object-fit: fill;
+  border-top: 2px solid #fff;
+  border-bottom: 3px solid #fff;
+}
