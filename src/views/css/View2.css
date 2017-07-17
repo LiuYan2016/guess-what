@@ -11,7 +11,7 @@
   font-size: 1.5rem;
 }
 .text {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .after-play {
   position: fixed;
@@ -21,10 +21,15 @@
   color: #fff;
 }
 .question {
+  font-family: HelveticaNeueLT-BlackCond, sans-serif;
   margin-top: 0;
   font-size: 2.5rem;
   background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   padding: 1rem;
   border-top: 2px solid #fff;
+}
+
+.caption {
+  font-family: HelveticaNeueLT-BlackCond, sans-serif;
 }

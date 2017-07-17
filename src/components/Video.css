@@ -8,3 +8,7 @@
   border-top: 2px solid #fff;
   border-bottom: 3px solid #fff;
 }
+
+.loading {
+  background: black url("../assets/Loading.gif") center center no-repeat;
+}

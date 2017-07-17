@@ -20,6 +20,7 @@ export function Choices(props) {
 
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
+    var newarray = array.slice(0);
 
     // While there remain elements to shuffle...
     while (0 !== currentIndex) {
@@ -29,12 +30,12 @@ export function Choices(props) {
       currentIndex -= 1;
 
       // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+      temporaryValue = newarray[currentIndex];
+      newarray[currentIndex] = newarray[randomIndex];
+      newarray[randomIndex] = temporaryValue;
     }
 
-    return array;
+    return newarray;
   }
 
   const arr = shuffle(props.choice.choices);

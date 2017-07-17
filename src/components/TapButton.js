@@ -10,6 +10,7 @@ export function TapButton(props) {
         className="tap-button" 
         onMouseUp={props.onReleased} 
         onTouchEnd={props.onReleased}
+        style={{backgroundImage: props.btnImg}}
       >
         {props.text}
       </div>

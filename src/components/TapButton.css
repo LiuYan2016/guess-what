@@ -1,14 +1,13 @@
 ﻿
 
 .tap-button {
-  width: 12rem;
-  height: 4rem;
+  width: 13rem;
+  height: 5rem;
   margin: auto;
   font-size: 2.5rem;
   font-weight: 900;
-  border: 3px solid #000;
-  border-radius: 2rem;
   cursor: pointer;
+  background-size: cover;
 }
 .tapWrapper {
   width: 100%;

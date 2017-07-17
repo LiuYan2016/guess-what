@@ -6,7 +6,22 @@ import './Video.css';
 export function Video(props) {
 
   return (
-    <video id="videoFrame" ref={props.videoRef} onTimeUpdate={(event)=>{if (event.target.currentTime >= 45) event.target.pause();}}>
+    <video  
+      playsInline="true"
+      webkit-playsinline
+      playsinline
+      id="videoFrame" 
+      ref={props.videoRef} 
+      onTimeUpdate={
+        (event)=>{
+          if (props.stopPosition){
+            if (event.target.currentTime >= props.stopPosition) {
+              props.moveState();
+            }
+          }
+        }
+      }
+    >
       <source src={props.video} type="video/mp4"/>
       Your browser does not support the video tag.
     </video>

@@ -1,9 +1,11 @@
+
 .title {
   font-size: 24pt;
   text-transform: uppercase;
 }
 
 .result {
+  font-family: HelveticaNeueLT-BlackCond, sans-serif;
   position: absolute;
   z-index: 10;
   top: 10%;
@@ -24,6 +26,9 @@
   background-color: rgba(230, 230, 230, 0.7);
   width: 100%;
   color: #000;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 #view3button {
@@ -38,11 +43,15 @@
   cursor: pointer;
 }
 
-.selected-item {
+.wrapper {
   position: absolute;
+  width: 100%;
   top: 70%;
+}
+
+.selected-item {
   border: 2px solid #fff;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 2rem;
   padding: 0.8rem;
   width: 90%;
