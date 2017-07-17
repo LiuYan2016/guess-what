@@ -8,8 +8,6 @@ export function Video(props) {
   return (
     <video  
       playsInline="true"
-      webkit-playsinline
-      playsinline
       id="videoFrame" 
       ref={props.videoRef} 
       onTimeUpdate={
